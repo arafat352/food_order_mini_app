@@ -143,19 +143,19 @@ class HomePage extends StatelessWidget {
                     image:
                     "https://images.unsplash.com/photo-1551024601-bec78aea704b",
                   ),
-                  FoodCard(
-                    name: "Burger Special",
-                    price: "\$15.00",
-                    rating: "4.9",
-                    image:
-                    "https://images.unsplash.com/photo-1550547660-d9450f859349",
-                  ),
-                  FoodCard(
-                      name: "Budded",
-                      price: "\$16.20",
-                      rating: "3.9",
-                      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b"
-                  ),
+                  //FoodCard(
+                  //   name: "Burger Special",
+                  //   price: "\$15.00",
+                  //   rating: "4.9",
+                  //   image:
+                  //   "https://images.unsplash.com/photo-1550547660-d9450f859349",
+                  // ),
+                  // FoodCard(
+                  //     name: "Budded",
+                  //     price: "\$16.20",
+                  //     rating: "3.9",
+                  //     image: "https://images.unsplash.com/photo-1551024601-bec78aea704b"
+                  // ),
                 ],
               ),
             )
@@ -171,7 +171,7 @@ class HomePage extends StatelessWidget {
           BottomNavigationBarItem(icon: Icon(Icons.home), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.explore), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.shopping_cart), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ""),
+          // BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: ""),
         ],
       ),
